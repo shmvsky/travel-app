@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Travel app</title>
 	<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+	<title>index</title>
 </head>
-<body>
-	<div class="relative">
-		<div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-green-400 text-white">
-			<h2 class="text-4xl">1</h2>
+<body class="flex flex-col">
+
+	<header class="grid grid-cols-12 py-5 shadow-lg">
+		<div class="col-span-2 text-center"></div>
+		<nav class="col-span-8">
+			<a href="#" class="pr-3 hover:underline hover:text-blue-600">Home</a>
+			<a href="#" class="pr-3 hover:underline hover:text-blue-600">Accomodation</a>
+			<a href="#" class="pr-3 hover:underline hover:text-blue-600">Food</a>
+			<a href="#" class="pr-3 hover:underline hover:text-blue-600">Language</a>
+			<a href="#" class="pr-3 hover:underline hover:text-blue-600">Transport</a>
+		</nav>
+		<div class="col-span-2 text-center"></div>
+	</header>
+
+	<div class="grid grid-cols-12 shadow-lg">
+		<div class="col-span-2 text-center"></div>
+		<div class="col-span-8 text-center bg-black">
+			<img src="./img/kotofei2.jpg" class="object-fill">
 		</div>
-		<div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-indigo-600 text-white">
-			<h2 class="text-4xl">2</h2>
-		</div>
-		<div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-purple-600 text-white">
-			<a href="/tabs.html">
-				<h2 class="text-4xl">3</h2>
-			</a>
-		</div>
-		<div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-neutral-800 text-white">
-			<h2 class="text-4xl">4</h2>
-		</div>
+		<div class="col-span-2 text-center"></div>
 	</div>
+
+	<footer class="grid grid-cols-12 shadow-lg py-5">
+		<div class="col-span-2"></div>
+		<div class="col-span-6">
+			<a href="#" class="pr-3 hover:underline hover:text-blue-500">About</a>
+			<a href="#" class="pr-3 hover:underline hover:text-blue-500">Contacts</a>
+			<a href="#" class="pr-3 hover:underline hover:text-blue-500">License</a>
+			<a href="#" class="pr-3 hover:underline hover:text-blue-500">Copyright</a>
+		</div>
+		<span class="col-span-2 font-serif font-extrabold text-sky-600 text-xl text-right">
+			MY-FINLAND.com
+		</span>
+		<div class="col-span-2"></div>
+	</footer>
+
 </body>
 </html>
