@@ -7,8 +7,10 @@
 	<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 	<title>Accomodation</title>
 </head>
-<body class="flex flex-col">
-	<header class="grid grid-cols-12 py-5 shadow-lg">
+<body class="flex flex-col h-screen justify-between bg-stone-200">
+	
+	<!-- Header -->
+	<header class="grid grid-cols-12 py-5 shadow-lg bg-stone-300">
 		<div class="col-span-2 text-center"></div>
 		<nav class="flex col-span-6">
 			<a href="./index.html" class="pr-3 hover:underline">Home</a>
@@ -23,15 +25,110 @@
 		<div class="col-span-2 text-center"></div>
 	</header>
 
-	<div class="grid grid-cols-12 shadow-lg">
-		<div class="col-span-2 text-center"></div>
-		<div class="col-span-8 text-center bg-black">
-			<img src="./img/kotofei2.jpg" class="object-fill">
+	<!-- Main body -->
+	<div class="grid mb-auto grid-cols-12">
+		<div class="col-span-2"></div>
+		<div class="col-span-8 text-center flex flex-col">
+			
+			<div class="shadow-lg bg-white rounded-lg mt-7 mb-3">
+				<h1 class="font-bold text-3xl my-4">Accomodation in Finland</h1>
+				<p class="text-xl mb-5">There are a wide range of accommodation choices available in Finland, from the usual hotels, hostels and Bed & Breakfast, or the more rustic log cabins by lakesides and farmstays in the countryside, to the very unusual chance to spend your nights in a Igloo Hotel or beneath the stars and northern lights in a glass igloo!</p>
+			</div>
+
+			<div class="grid grid-cols-3 gap-4 my-4">
+
+				<div>
+					<!-- item 1.1 -->
+					<div class="bg-white rounded-lg shadow-lg">
+						<img src="https://www.discoveringfinland.com/wp-content/uploads/2021/02/140794189_4053778344642136_1658006675539711457_o-450x264.jpg" alt="" class="rounded-t-lg">
+						<div class="px-4 text-left">
+						<h2 class="font-bold mb-2 text-2xl text-stone-900 pt-3">Hotel Kalevala</h2>
+						<p class="text-stone-700 mb-2">Address: Väinämöinen 9</p>
+						<p class="text-stone-700 mb-2">Phone: +358 8 655 4100</p>
+						<a href="http://www.hotellikalevala.fi/">
+							<button type="button" class="mt-1 mb-3 focus:outline-none text-white bg-stone-700 hover:bg-stone-800 focus:ring-4 focus:ring-stone-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-stone-600 dark:hover:bg-stone-700 dark:focus:ring-stone-900">Details</button>
+						</a>	
+						</div>
+					</div>
+
+					<!-- item 1.2 -->
+					<div class="bg-white rounded-lg shadow-lg mt-4">
+						<img src="https://www.discoveringfinland.com/wp-content/uploads/2016/09/201216111013402_imagen.jpg" alt="" class="rounded-t-lg">
+						<div class="px-4 text-left">
+						<h2 class="font-bold mb-2 text-2xl text-stone-900 pt-3">Santa’s Hotel Rudolf</h2>
+						<p class="text-stone-700 mb-2">Address: Koskikatu 41Rovaniemi</p>
+						<p class="text-stone-700 mb-2">Phone: +358 (0)400 102 220</p>
+						<a href="http://www.hotelsantaclaus.fi/">
+							<button type="button" class="mt-1 mb-3 focus:outline-none text-white bg-stone-700 hover:bg-stone-800 focus:ring-4 focus:ring-stone-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-stone-600 dark:hover:bg-stone-700 dark:focus:ring-stone-900">Details</button>
+						</a>	
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<!-- item 2.1 -->
+					<div class="bg-white rounded-lg shadow-lg">
+						<img src="https://www.discoveringfinland.com/wp-content/uploads/2020/02/MG_0472-1200x800.jpg" alt="" class="rounded-t-lg">
+						<div class="px-4 text-left">
+						<h2 class="font-bold mb-2 text-2xl text-stone-900 pt-3">Arctic Dreams House - Explore Lapland Beyond a Different Door!</h2>
+						<p class="text-stone-700 mb-2">Address: Rovakatu 25cRovaniemi</p>
+						<p class="text-stone-700 mb-2">Phone: +358 50 471 8189</p>
+						<a href="https://arcticdreamshouse.com/">
+							<button type="button" class="mt-1 mb-3 focus:outline-none text-white bg-stone-700 hover:bg-stone-800 focus:ring-4 focus:ring-stone-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-stone-600 dark:hover:bg-stone-700 dark:focus:ring-stone-900">Details</button>
+						</a>	
+						</div>
+					</div>
+
+					<!-- item 2.2 -->
+					<div class="bg-white rounded-lg shadow-lg">
+						<img src="https://www.discoveringfinland.com/wp-content/uploads/2018/03/19642692_1328641563909425_5591648957615594924_n.jpg" alt="" class="rounded-t-lg">
+						<div class="px-4 text-left">
+						<h2 class="font-bold mb-2 text-2xl text-stone-900 pt-3">Kaikuva Activities – Nuuksio Hostel & Camping</h2>
+						<p class="text-stone-700 mb-2">Address: Kaislammentie 65Veikkola</p>
+						<p class="text-stone-700 mb-2">Phone: +358 400707897</p>
+						<a href="https://kaikuva.fi/">
+							<button type="button" class="mt-1 mb-3 focus:outline-none text-white bg-stone-700 hover:bg-stone-800 focus:ring-4 focus:ring-stone-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-stone-600 dark:hover:bg-stone-700 dark:focus:ring-stone-900">Details</button>
+						</a>	
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<!-- item 3.1 -->
+					<div class="bg-white rounded-lg shadow-lg">
+						<img src="https://www.discoveringfinland.com/wp-content/uploads/2021/11/Aurora-Pyramid-005-1200x800.jpg" alt="" class="rounded-t-lg">
+						<div class="px-4 text-left">
+						<h2 class="font-bold mb-2 text-2xl text-stone-900 pt-3">Aurora Pyramids Levi</h2>
+						<p class="text-stone-700 mb-2">Address: Palosaarentie 30Kittilä</p>
+						<p class="text-stone-700 mb-2">Phone: +358 40 714 8879</p>
+						<a href="https://elvesvillage.fi/en/accommodations/aurora-pyramids/">
+							<button type="button" class="mt-1 mb-3 focus:outline-none text-white bg-stone-700 hover:bg-stone-800 focus:ring-4 focus:ring-stone-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-stone-600 dark:hover:bg-stone-700 dark:focus:ring-stone-900">Details</button>
+						</a>	
+						</div>
+					</div>
+
+					<!-- item 3.2 -->
+					<div class="bg-white rounded-lg shadow-lg mt-4">
+						<img src="https://www.discoveringfinland.com/wp-content/uploads/2017/10/zzzz-15.jpg" alt="" class="rounded-t-lg">
+						<div class="px-4 text-left">
+						<h2 class="font-bold mb-2 text-2xl text-stone-900 pt-3">Santa’s Igloos Arctic Circle</h2>
+						<p class="text-stone-700 mb-2">Address: Rovaniemi</p>
+						<p class="text-stone-700 mb-2">Phone: +358 400 102 181</p>
+						<a href="http://www.santashotels.fi/en/hotelsantaclaus/glass-igloos-in-rovaniemi">
+							<button type="button" class="mt-1 mb-3 focus:outline-none text-white bg-stone-700 hover:bg-stone-800 focus:ring-4 focus:ring-stone-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-stone-600 dark:hover:bg-stone-700 dark:focus:ring-stone-900">Details</button>
+						</a>	
+						</div>
+					</div>
+
+				</div>
+		
+			</div>
 		</div>
-		<div class="col-span-2 text-center"></div>
+		<div class="col-span-2"></div>
 	</div>
 
-	<footer class="grid grid-cols-12 shadow-lg py-5">
+	<!-- Footer -->
+	<footer class="grid grid-cols-12 shadow-lg py-5 bg-stone-300">
 		<div class="col-span-2"></div>
 		<div class="col-span-8">
 			<a href="#" class="pr-3 hover:underline hover:text-blue-500">About</a>
