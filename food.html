@@ -7,34 +7,76 @@
 	<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 	<title>Food</title>
 </head>
-<body class="flex flex-col h-screen justify-between">
+<body class="flex flex-col h-screen justify-between bg-stone-200">
+	
 	<!-- Header -->
-	<header class="grid grid-cols-12 py-5 shadow-lg bg-slate-300">
-		<div class="col-span-2 text-center"></div>
+	<header class="grid grid-cols-12 py-5 shadow-lg bg-stone-300">
+		<div class="col-span-2"></div>
 		<nav class="flex col-span-6">
-			<a href="./index.html" class="pr-3 hover:underline">Home</a>
-			<a href="./accomodation.html" class="pr-3 hover:underline">Accomodation</a>
-			<a href="./food.html" class="pr-3 text-blue-600">Food</a>
-			<a href="./language.html" class="pr-3 hover:underline">Language</a>
-			<a href="./transport.html" class="pr-3 hover:underline">Transport</a>
+			<a href="./index.html" class="text-xl pr-3 hover:underline">Home</a>
+			<a href="./accomodation.html" class="text-xl pr-3 hover:underline">Accomodation</a>
+			<a href="./food.html" class="text-xl pr-3 text-blue-600">Food</a>
+			<a href="./language.html" class="text-xl pr-3 hover:underline">Language</a>
+			<a href="./transport.html" class="text-xl pr-3 hover:underline">Transport</a>
 		</nav>
-		<span class="col-span-2 font-serif text-lg text-right underline" style="font-family: Rubik Mono One;">
+		<span class="col-span-2 font-serif text-xl text-right underline" style="font-family: Rubik Mono One;">
 			MY-FINLAND.com
 		</span>
-		<div class="col-span-2 text-center"></div>
+		<div class="col-span-2"></div>
 	</header>
 
 	<!-- Main body -->
-	<div class="grid mb-auto grid-cols-12 shadow-lg">
-		<div class="col-span-2 text-center"></div>
-		<div class="col-span-8 text-center bg-black">
-			<img src="./img/kotofei2.jpg" class="object-fill">
+	<div class="grid mb-auto grid-cols-12">
+		<div class="col-span-2"></div>
+		<div class="col-span-8">
+
+			<div class="text-center flex flex-col shadow-lg rounded-lg bg-white mt-7 mb-3 p-3">
+				<h1 class="font-bold text-2xl">Traditional Finnish dishes</h1>
+				<p class="text-lg">Known as the happiest country in the world, Finland is a growing travel destination in the Nordic region. Perhaps one reason why the Finns are so happy (and a delicious reason for a visit) is the local cuisine. Finnish food is simple, fresh, and includes plenty of local ingredients sourced from the forests and lakes Finland is known for. Here are 10 traditional Finnish foods everyone should try on their next trip to northern Europe.</p>
+			</div>
+
+			<div class="text-center items-center flex flex-col shadow-lg rounded-lg bg-white mt-7 mb-3 p-3">
+				<h1 class="font-bold text-xl">Ruisleipä (rye bread)</h1>
+				<img class="max-w-xl scale-30 rounded-lg my-5" src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/09/finnish-round-rye-bread-on-a-neutral-background.jpg" alt="">
+				<p class="text-lg">Rye bread is so beloved by Finns that it was voted the national food in 2017 (the same year Finland celebrated its 100th year of independence from Russia). Eaten for breakfast, as a side at lunch, and as a snack, ruisleipä is a staple of the Finnish diet that’s often served with ham and cheese or a side of butter.</p>
+			</div>
+
+			<div class="text-center items-center flex flex-col shadow-lg rounded-lg bg-white mt-7 mb-3 p-3">
+				<h1 class="font-bold text-xl">Salmiakki (salty licorice)</h1>
+				<img class="max-w-xl scale-30 rounded-lg my-5" src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/09/Salty-licorice-candies-from-Finland.jpg" alt="">
+				<p class="text-lg">Not to be confused with the licorice found in the US, this pitch-black candy is flavored with ammonium chloride to give it a strong, salty kick. Most people may not love it on the first try, but for Finns who have grown up eating it, salmiakki is nothing short of addictive. Even referred to as “black gold,” Finns take salmiakki with them when they go travelling.</p>
+			</div>
+
+			<div class="text-center items-center flex flex-col shadow-lg rounded-lg bg-white mt-7 mb-3 p-3">
+				<h1 class="font-bold text-xl">Korvapuusti (cinnamon bun)</h1>
+				<img class="max-w-xl scale-30 rounded-lg my-5" src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/09/Three-Finnish-sweet-rolls-with-cinnamon-and-cardamom.jpg" alt="">
+				<p class="text-lg">The cinnamon buns are best eaten fresh out of the oven, with a cup of coffee or a glass of cold milk on the side.</p>
+			</div>
+
+			<div class="text-center items-center flex flex-col shadow-lg rounded-lg bg-white mt-7 mb-3 p-3">
+				<h1 class="font-bold text-xl">Uudet perunat ja silli (spring potatoes and pickled herring)</h1>
+				<img class="max-w-xl scale-30 rounded-lg my-5" src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/09/close-up-of-delicious-marinated-herring-with-potatoes-and-onions.jpg" alt="">
+				<p class="text-lg"> One of the most awaited crops is the spring potatoes. Compared to your usual spuds, these are considerably smaller in size, have a beautiful dense texture, and a slightly sweet taste. Although Finns eat potatoes throughout the year, in summer they’re served as a main instead of the usual side dish. A typical summer meal consists of boiled spring potatoes, dill, butter, and pickled herring.</p>
+			</div>
+
+			<div class="text-center items-center flex flex-col shadow-lg rounded-lg bg-white mt-7 mb-3 p-3">
+				<h1 class="font-bold text-xl">Lohikeitto (salmon soup)</h1>
+				<img class="max-w-xl scale-30 rounded-lg my-5" src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/09/Finnish-salmon-soup-with-cream.jpg" alt="">
+				<p class="text-lg">The Finnish diet is rich in fish, and the most popular fish by far is salmon. A truly Finnish way to enjoy it is to have a bowl of piping hot salmon soup with a side of rye bread. This simple soup can be made with either a clear or milky broth, and on special occasions, fresh cream is added to give the dish a more sumptuous flavor. In addition to salmon, the soup also usually contains potatoes, carrots, and leeks. Dill is sometimes added as a garnish, especially in the summertime.</p>
+			</div>
+
+			<div class="text-center items-center flex flex-col shadow-lg rounded-lg bg-white mt-7 mb-3 p-3">
+				<h1 class="font-bold text-xl">Lihapiirakka (meat pie)</h1>
+				<img class="max-w-xl scale-30 rounded-lg my-5" src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/09/Finnish-meat-pie-Lihapiirakka.jpg" alt="">
+				<p class="text-lg">This hearty pastry is another food market favorite that’s influenced by eastern culinary traditions. Made from a dough similar to that of a doughnut, the pastry is filled with cooked rice and minced beef and then fried in oil. The greasiness and saltiness also make it a go-to snack for party-goers returning home after a night out. Find lihapiirakka at one of the many late-night grill joints found all over the country. Try one filled with sausage, fried egg, and pickles, and you have yourself a full meal. Vegans aren’t left out: There is a non-meat version called vihis. </p>
+			</div>
+
 		</div>
 		<div class="col-span-2 text-center"></div>
 	</div>
 
 	<!-- Footer -->
-	<footer class="grid grid-cols-12 shadow-lg py-5 bg-slate-300">
+	<footer class="grid grid-cols-12 shadow-lg py-5 bg-stone-300">
 		<div class="col-span-2"></div>
 		<div class="col-span-8">
 			<a href="#" class="pr-3 hover:underline hover:text-blue-500">About</a>

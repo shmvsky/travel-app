@@ -7,33 +7,43 @@
 	<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 	<title>Home</title>
 </head>
-<body class="flex flex-col h-screen justify-between">
-
+<body class="flex flex-col h-screen justify-between bg-stone-200">
+	
 	<!-- Header -->
-	<header class="grid grid-cols-12 py-5 shadow-lg bg-slate-300">
-		<div class="col-span-2 text-center"></div>
+	<header class="grid grid-cols-12 py-5 shadow-lg bg-stone-300">
+		<div class="col-span-2"></div>
 		<nav class="flex col-span-6">
-			<a href="./index.html" class="pr-3 text-blue-600">Home</a>
-			<a href="./accomodation.html" class="pr-3 hover:underline">Accomodation</a>
-			<a href="./food.html" class="pr-3 hover:underline">Food</a>
-			<a href="./language.html" class="pr-3 hover:underline">Language</a>
-			<a href="./transport.html" class="pr-3 hover:underline">Transport</a>
+			<a href="./index.html" class="text-xl pr-3 text-blue-600">Home</a>
+			<a href="./accomodation.html" class="text-xl pr-3 hover:underline">Accomodation</a>
+			<a href="./food.html" class="text-xl pr-3 hover:underline">Food</a>
+			<a href="./language.html" class="text-xl pr-3 hover:underline">Language</a>
+			<a href="./transport.html" class="text-xl pr-3 hover:underline">Transport</a>
 		</nav>
-		<span class="col-span-2 font-serif text-lg text-right underline" style="font-family: Rubik Mono One;">
+		<span class="col-span-2 font-serif text-xl text-right underline" style="font-family: Rubik Mono One;">
 			MY-FINLAND.com
 		</span>
-		<div class="col-span-2 text-center"></div>
+		<div class="col-span-2"></div>
 	</header>
 
-	<div class="mb-auto grid grid-cols-12">
-		<div class="col-span-2 text-center"></div>
-		<div class="col-span-8 text-center bg-black">
-			<img src="./img/kotofei2.jpg" class="object-fill">
+	<!-- Main body -->
+	<div class="grid grid-cols-12">
+		<div class="col-span-2"></div>
+		<div class="flex flex-col col-span-8 items-center">
+
+			<img class="shadow-xl mt-7 mb-3 max-w-full max-h-96 rounded-lg" src="https://www.visitfinland.com/.imaging/mte/visit-finland-theme/xlUpW/dam/vf/Northern-Lights/Lapland_Northern_Lights_Hannes_Becker.jpg/jcr:content/Lapland_Northern_Lights_Hannes_Becker.jpg" alt="">
+
+			<div class="text-center flex flex-col shadow-lg rounded-lg bg-white mb-3 p-3 items-center">
+				<p class="text-base">
+					Planning a trip to Finland but don’t know where to start? No worries. Let me introduce you to my Finland tour!
+				</p>
+			</div>
+
 		</div>
 		<div class="col-span-2 text-center"></div>
 	</div>
 
-	<footer class="grid grid-cols-12 shadow-lg py-5 bg-slate-300">
+	<!-- Footer -->
+	<footer class="grid grid-cols-12 shadow-lg py-5 bg-stone-300">
 		<div class="col-span-2"></div>
 		<div class="col-span-8">
 			<a href="#" class="pr-3 hover:underline hover:text-blue-500">About</a>

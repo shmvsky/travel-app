@@ -7,31 +7,65 @@
 	<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 	<title>Transport</title>
 </head>
-<body class="flex flex-col h-screen justify-between">
-	<header class="grid grid-cols-12 py-5 shadow-lg bg-slate-300">
-		<div class="col-span-2 text-center"></div>
+<body class="flex flex-col h-screen justify-between bg-stone-200">
+	
+	<!-- Header -->
+	<header class="grid grid-cols-12 py-5 shadow-lg bg-stone-300">
+		<div class="col-span-2"></div>
 		<nav class="flex col-span-6">
-			<a href="./index.html" class="pr-3 hover:underline">Home</a>
-			<a href="./accomodation.html" class="pr-3 hover:underline">Accomodation</a>
-			<a href="./food.html" class="pr-3 hover:underline">Food</a>
-			<a href="./language.html" class="pr-3 hover:underline">Language</a>
-			<a href="./transport.html" class="pr-3 text-blue-600">Transport</a>
+			<a href="./index.html" class="text-xl pr-3 hover:underline">Home</a>
+			<a href="./accomodation.html" class="text-xl pr-3 hover:underline">Accomodation</a>
+			<a href="./food.html" class="text-xl pr-3 hover:underline">Food</a>
+			<a href="./language.html" class="text-xl pr-3 hover:underline">Language</a>
+			<a href="./transport.html" class="text-xl pr-3 text-blue-600">Transport</a>
 		</nav>
-		<span class="col-span-2 font-serif text-lg text-right underline" style="font-family: Rubik Mono One;">
+		<span class="col-span-2 font-serif text-xl text-right underline" style="font-family: Rubik Mono One;">
 			MY-FINLAND.com
 		</span>
-		<div class="col-span-2 text-center"></div>
+		<div class="col-span-2"></div>
 	</header>
 
-	<div class="grid mb-auto grid-cols-12 shadow-lg">
-		<div class="col-span-2 text-center"></div>
-		<div class="col-span-8 text-center bg-black">
-			<img src="./img/kotofei2.jpg" class="object-fill">
+	<!-- Main body -->
+	<div class="grid mb-auto grid-cols-12">
+		<div class="col-span-2"></div>
+		<div class="col-span-8">
+
+			<div class="text-center flex flex-col shadow-lg rounded-lg bg-white mt-7 mb-3 p-3 items-center">
+				<h1 class="font-bold text-2xl">Public transportation</h1>
+				<p class="text-base">Finland has excellent public transport, both locally and nationally. Trains are modern and comfortable, and usually on time – even during the worst of the winter weather. The entire country is linked by a comprehensive bus and rail network.</p>
+			</div>
+
+			<div class="flex flex-col shadow-lg rounded-lg bg-white mt-7 mb-3 p-3 items-center">
+				<h1 class="font-bold text-2xl">Trains</h1>
+				<p class="text-base">
+					Trains are comfortable, especially the express trains, which have restaurant cars, family cars (IC trains only, where a carriage is partly a playroom), power sockets, and a smoking room.
+				</p>
+				<img class="max-w-xl scale-30 rounded-lg my-2" src="https://d1c4d7gnm6as1q.cloudfront.net/Pictures/2000xAny/7/3/7/22737_tn_fi-vr-transtech-driving-car_06.jpg" alt="">
+				<p class="text-base">
+					The express services generally have a first class section, branded as Business Class, where you pay an additional surcharge which gives you extra space, free newspapers, and possibly a snack. If you’re travelling long distances, for example Helsinki-Oulu, there are overnight sleeper trains, most of which also have car-carrier wagons serving the most important stations. When travelling by car, your vehicle will be loaded on the wagon in the evening and upon arrival in the morning you may continue your journey.
+				</p>
+			</div>
+
+			<div class="text-center flex flex-col shadow-lg rounded-lg bg-white mt-7 mb-3 p-3 items-center">
+				<h1 class="font-bold text-2xl">Buses & Coaches</h1>
+				<p class="text-base">
+					The main bus and coach company operating in Finland is Oy Matkahuolto Ab which offers long-distance coach connections to practically all parts of Finland. In Lapland, buses are the only public transport available as the rail network doesn’t extend to the extreme north. Buses can occasionally be slightly higher priced than trains, but usually between the large cities they are priced competitively, but they always offer more direct connections at more frequent intervals than the trains.
+				</p>
+				<img class="max-w-xl scale-30 rounded-lg mt-2" src="./img/ybMgBWXFc3-D5YajIVRnuRnJQYg8bL20ve1kXNrtFgsM9tp0mWGVYrv-5O0oyauubVm-vB1gomKmH107oOtyMmX3.jpg" alt="">
+			</div>
+
+			<div class="text-center flex flex-col shadow-lg rounded-lg bg-white mt-7 mb-3 p-3 items-center">
+				<h1 class="font-bold text-2xl">Trams</h1>
+				<p class="text-base">Currently only the city of Helsinki is served by a Light Rail System, although both Tampere and Turku have plans in the pipeline for future tram systems.</p>
+				<img class="max-w-xl scale-30 rounded-lg mt-2" src="https://upload.wikimedia.org/wikipedia/commons/d/d2/MLNRV_Hakaniemi_2010-05-03.JPG" alt="">
+			</div>
+
 		</div>
 		<div class="col-span-2 text-center"></div>
 	</div>
 
-	<footer class="grid grid-cols-12 shadow-lg py-5 bg-slate-300">
+	<!-- Footer -->
+	<footer class="grid grid-cols-12 shadow-lg py-5 bg-stone-300">
 		<div class="col-span-2"></div>
 		<div class="col-span-8">
 			<a href="#" class="pr-3 hover:underline hover:text-blue-500">About</a>

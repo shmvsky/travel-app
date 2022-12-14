@@ -7,31 +7,51 @@
 	<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 	<title>Language</title>
 </head>
-<body class="flex flex-col h-screen justify-between">
-	<header class="grid grid-cols-12 py-5 shadow-lg bg-slate-300">
-		<div class="col-span-2 text-center"></div>
+<body class="flex flex-col h-screen justify-between bg-stone-200">
+	
+	<!-- Header -->
+	<header class="grid grid-cols-12 py-5 shadow-lg bg-stone-300">
+		<div class="col-span-2"></div>
 		<nav class="flex col-span-6">
-			<a href="./index.html" class="pr-3 hover:underline">Home</a>
-			<a href="./accomodation.html" class="pr-3 hover:underline">Accomodation</a>
-			<a href="./food.html" class="pr-3 hover:underline">Food</a>
-			<a href="./language.html" class="pr-3 text-blue-600">Language</a>
-			<a href="./transport.html" class="pr-3 hover:underline">Transport</a>
+			<a href="./index.html" class="text-xl pr-3 hover:underline">Home</a>
+			<a href="./accomodation.html" class="text-xl pr-3 hover:underline">Accomodation</a>
+			<a href="./food.html" class="text-xl pr-3 hover:underline">Food</a>
+			<a href="./language.html" class="text-xl pr-3 text-blue-600">Language</a>
+			<a href="./transport.html" class="text-xl pr-3 hover:underline">Transport</a>
 		</nav>
-		<span class="col-span-2 font-serif text-lg text-right underline" style="font-family: Rubik Mono One;">
+		<span class="col-span-2 font-serif text-xl text-right underline" style="font-family: Rubik Mono One;">
 			MY-FINLAND.com
 		</span>
-		<div class="col-span-2 text-center"></div>
+		<div class="col-span-2"></div>
 	</header>
 
-	<div class="grid mb-auto grid-cols-12 shadow-lg">
-		<div class="col-span-2 text-center"></div>
-		<div class="col-span-8 text-center bg-black">
-			<img src="./img/kotofei2.jpg" class="object-fill">
+	<!-- Main body -->
+	<div class="grid mb-auto grid-cols-12">
+		<div class="col-span-2"></div>
+		<div class="col-span-8">
+
+			<div class="text-center flex flex-col shadow-lg rounded-lg bg-white mt-7 mb-3 p-3 items-center">
+				<h1 class="font-bold text-2xl">What Language Is Spoken In Finland</h1>
+				<p class="text-lg">Although English is widely spoken in Finland, Finnish is the mother tongue of the majority of the population (also called the Native Language). Germanic languages, such as Swedish and Norwegian, are also spoken. Finnish belongs to the Uralic language family, which includes Estonian, Hungarian, and several other languages spoken in Russia.
+					In addition to Finnish, there are a number of minority languages spoken in Finland, including Swedish (the second official language), Romani, Sami, and sign languages. The Finnish people have their own unique dialects of Finnish, which can vary depending on the region. While some dialects are close to standard Finnish, others can be quite different.
+				</p>
+				<img class="max-w-xl scale-30 rounded-lg" src="./img/Finnish-alphabet.jpg" alt="">
+
+				<h1 class="font-bold text-2xl">Most Finns speak English too</h1>
+				<p class="text-lg">Did you know that the formal language spoken in Finland is not actually Finnish? It’s called Finnish, but it’s a modern language, and most of the common people in Southwest Finland actually speak Swedish. Swedish is also taught in Finnish schools.
+
+					In fact, many Finns study the Scandinavian languages because they’re so similar to their own. The majority of universities in Finland offer these courses to anyone who wants to take them. There are more Scandinavians living in Finland than Finns.
+					
+					The country has been a part of Scandinavia for centuries and even if it was part of Sweden for about 100 years, there are still many traces from its past as a Scandinavian country. Swedish-speaking Finns make up about 5% of the population, with some Swedish speakers even living outside Helsinki. Palgrave Macmillan is a famous publisher. Palgrave Macmillan publishes books in Finnish, Swedish and English.
+				</p>
+			</div>
+
 		</div>
 		<div class="col-span-2 text-center"></div>
 	</div>
 
-	<footer class="grid grid-cols-12 shadow-lg py-5 bg-slate-300">
+	<!-- Footer -->
+	<footer class="grid grid-cols-12 shadow-lg py-5 bg-stone-300">
 		<div class="col-span-2"></div>
 		<div class="col-span-8">
 			<a href="#" class="pr-3 hover:underline hover:text-blue-500">About</a>
